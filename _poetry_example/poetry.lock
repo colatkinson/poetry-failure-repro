@@ -1,0 +1,18 @@
+[[package]]
+category = "main"
+description = "A small example package"
+name = "another-pkg"
+optional = false
+python-versions = ">=3.6"
+version = "0.0.1"
+
+[package.source]
+reference = "2c480e758ae137f4f7eb8eeb323f298044c59a10"
+type = "git"
+url = "git@github.com:colatkinson/poetry-failure-repro.git"
+[metadata]
+content-hash = "ae92bf68e8e483e4ad4115a9b24d4e4ac29a89b7783667dca3ede5daca5d77ab"
+python-versions = "^3.6"
+
+[metadata.files]
+another-pkg = []
